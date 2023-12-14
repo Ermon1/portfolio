@@ -12,7 +12,7 @@ function Home() {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center gap-4 justify-center h-full px-4 md:flex-row ">
         <div className="text-white flex flex-col justify-center  h-full">
           <h2 className="text-4xl sm:text-7xl font-bold ">
-            {" "}
+           
             I'm A Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
