@@ -21,7 +21,7 @@ function Portfolio() {
   return (
     <div
       name="portfolio"
-      className="w-full text-white  md:h-screen"
+      className="w-full text-white    mb-28"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-5">
