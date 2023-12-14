@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
 
 function About() {
-    return (
-      <>
-    <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full  '>
-        
-          
-          <div className='pb-8 '>
-              <p className='text-4xl font-bold inline border-b-4'>About</p>
+  return (
+    <>
+      <div name="about" className="w-full   text-white">
+        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full  ">
+          <div className="pb-8 ">
+            <p className="text-4xl font-bold inline border-b-4">About</p>
           </div>
-          <p>
+          <p className="text-black">
             I am Ermias Brhane, a passionate computer science graduate from the
             University of Gondar. Armed with a deep understanding of computer
             science principles, I graduated with great distinction, setting a
@@ -26,9 +24,8 @@ function About() {
           </p>
         </div>
       </div>
-   
     </>
   );
 }
 
-export default About
+export default About;

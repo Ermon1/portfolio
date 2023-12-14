@@ -1,11 +1,5 @@
 import React from "react";
 import carrental from "../asset/carRental.png";
-import github from "../asset/github.png";
-import html from "../asset/html.png";
-import js from "../asset/javascript.png";
-import node from "../asset/node.png";
-import react from "../asset/react.png";
-import tailwind from "../asset/tailwind.png";
 
 function Portfolio() {
   const portfolio = [
@@ -27,7 +21,7 @@ function Portfolio() {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-500 w-full text-white  md:h-screen"
+      className="w-full text-white  md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-5">
@@ -37,7 +31,7 @@ function Portfolio() {
           <p className="py-6 ">check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 mm:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolio.map((port) => (
             <div
               key={port.id}
@@ -46,7 +40,7 @@ function Portfolio() {
               <img
                 src={port.src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 w-full"
+                className="rounded-md duration-200 hover:scale-105 "
               />
               <div className="text-center text-slate-950 ">
                 car rental website{" "}

@@ -1,21 +1,20 @@
-import React from 'react'
+import React from "react";
 import { FiArrowRight } from "react-icons/fi";
-import Ermi from '../asset/ermi.jpg'
+import Ermi from "../asset/ermi.jpg";
+import { Link } from "react-scroll";
 function Home() {
   return (
     <div
       name="home"
-      className=" h-screen bg-gradient-to-b from-black via-black to-gray-700
+      className=" h-screen 
     "
     >
-    
       <div className="max-w-screen-lg mx-auto flex flex-col items-center gap-4 justify-center h-full px-4 md:flex-row ">
         <div className="text-white flex flex-col justify-center  h-full">
           <h2 className="text-4xl sm:text-7xl font-bold ">
-           
             I'm A Full Stack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-black py-4 max-w-md">
             I'm a Full Stack Web Developer with a passion for learning new
             technologies. I'm currently working with React, Redux, Node.js,
             Express.js, and MongoDB.
@@ -23,16 +22,20 @@ function Home() {
             technologies. I'm good at working with any team
           </p>
           <div>
-            <button className= " group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className=" group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
               portfolio
-              <span className='group-hover:rotate-90 duration-200'>
+              <span className="group-hover:rotate-90 duration-200">
                 <FiArrowRight size={24} className="ml-2" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
-          
           <img
             src={Ermi}
             alt="ermi.jpg"
@@ -44,4 +47,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;
