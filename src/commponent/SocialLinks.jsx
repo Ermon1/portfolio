@@ -11,7 +11,38 @@ function SocialLinks() {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href:"https://linkedin.com/in/ermias-brhane"
+      href: "https://linkedin.com/in/ermias-brhane",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          LinkedIn <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://linkedin.com/in/ermias-brhane",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          LinkedIn <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://linkedin.com/in/ermias-brhane",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          LinkedIn <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://linkedin.com/in/ermias-brhane",
+      style: "rounded-tr-md",
     },
   ];
   return (
