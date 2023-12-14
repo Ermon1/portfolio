@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 import Ermi from '../asset/ermi.jpg'
 function Home() {
   return (
