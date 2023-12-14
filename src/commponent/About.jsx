@@ -8,7 +8,7 @@ function About() {
           <div className="pb-8 ">
             <p className="text-4xl font-bold inline border-b-4">About</p>
           </div>
-          <p className="text-black font-semibold">
+          <p className="text-white font-semibold">
             I am Ermias Brhane, a passionate computer science graduate from the
             University of Gondar. Armed with a deep understanding of computer
             science principles, I graduated with great distinction, setting a

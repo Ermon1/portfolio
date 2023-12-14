@@ -14,7 +14,7 @@ function Home() {
           <h2 className="text-4xl sm:text-7xl font-bold ">
             I'm A Full Stack Developer
           </h2>
-          <p className="text-black py-4 max-w-md">
+          <p className="text-white py-4 max-w-md">
             I'm a Full Stack Web Developer with a passion for learning new
             technologies. I'm currently working with React, Redux, Node.js,
             Express.js, and MongoDB.
